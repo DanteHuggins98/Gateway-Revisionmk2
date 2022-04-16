@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Final Project</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+     <header class="mainHeader">
+      <img src="Smoky-mountain.jpg" alt="Gatlinburg Tennessee logo">
+      <h2>The Mountains Are Calling</h2>
+    </header>
+
+    <nav class="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="todo.html">Activities</a></li>
+         </ul>
+    </nav>
+    <form action="process.php" method="POST"> 
+      <label>First Name</label>
+      <input type="text" name="firstName" placeholder="Enter First Name">
+    <br>
+      <label>Last Name</label>
+      <input type="text" name="lastName" placeholder="Enter Last Name">
+    <br>
+      <label>Email</label>
+    <input type="email" name="email" placeholder="Enter Your Email">
+    <br>
+      <label>Questions</label>
+    <textarea name="questions" placeholder="Type your questions, comments, and concerns."></textarea>
+    <br>
+      <label>Gender</label>
+      <select name="gender">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Non-Binary</option>
+          <option value="prefer-not">Prefer not to answer</option>
+      </select>  
+   <br> 
+          <label for="age">Age:</label>
+          <input id="age" type="number" name="age" value="16">
+      <br>
+        
+      <button type="submit" >Submit</button>
+</form>
+
+<footer>
+  <p>Copyright &copy; 2022 Dante L Huggins</p>
+    <a href="https://www.instagram.com/visitgatlinburg/?hl=en">
+       <img class="logo" src="instagram.png" alt="instagram logo">
+      </a>   
+</footer>
+  </body>
+</html>
+  
+ 
